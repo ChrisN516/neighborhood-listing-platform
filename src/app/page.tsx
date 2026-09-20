@@ -19,7 +19,7 @@ export default function Home() {
       <div className="mx-auto max-w-5xl">
         <header className="text-center">
           <h1 className="text-4xl font-bold tracking-tight">
-            Neighborhood Listing Platform
+            Neighborhood Community Platform
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
             A simple place for residents to explore listings, connect with
