@@ -1,48 +1,91 @@
-const features = [
+import PropertyCard from "../components/PropertyCard";
+import SearchFilters from "../components/SearchFilters";
+import SponsorBanner from "../components/SponsorBanner";
+import type { Property, Sponsor } from "../types";
+
+const properties: Property[] = [
   {
-    title: "Listings",
-    description: "Discover local homes, services, and opportunities.",
+    id: "property-101",
+    title: "Maple Street Family Home",
+    streetAddress: "125 Maple Street",
+    city: "Los Angeles",
+    state: "CA",
+    price: 725000,
+    bedrooms: 3,
+    bathrooms: 2,
+    squareFootage: 1850,
+    imageUrl: "/property-home.svg",
+    propertyDetailsUrl: "/properties/maple-street-home",
   },
   {
-    title: "Neighborhood Sponsors",
-    description: "Connect with organizations that support the community.",
+    id: "property-102",
+    title: "Downtown Modern Loft",
+    streetAddress: "410 Grand Avenue",
+    city: "Los Angeles",
+    state: "CA",
+    price: 595000,
+    bedrooms: 2,
+    bathrooms: 2,
+    squareFootage: 1200,
+    imageUrl: "/property-home.svg",
+    propertyDetailsUrl: "/properties/downtown-modern-loft",
   },
   {
-    title: "Voice Help",
-    description: "Use voice assistance to navigate listings more easily.",
+    id: "property-103",
+    title: "Riverside Garden Cottage",
+    streetAddress: "88 River Road",
+    city: "Los Angeles",
+    state: "CA",
+    price: 649000,
+    bedrooms: 3,
+    bathrooms: 2,
+    squareFootage: 1540,
+    imageUrl: "/property-home.svg",
+    propertyDetailsUrl: "/properties/riverside-garden-cottage",
   },
 ];
+
+const sponsor: Sponsor = {
+  id: "sponsor-201",
+  businessName: "Habitat for Humanity",
+  websiteUrl: "https://www.habitat.org/",
+  description: "Supporting safe and affordable housing in communities.",
+};
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-50 px-6 py-16 text-slate-900">
-      <div className="mx-auto max-w-5xl">
+      <div className="mx-auto max-w-6xl space-y-10">
         <header className="text-center">
           <h1 className="text-4xl font-bold tracking-tight">
-            Neighborhood Listing Platform
+            Neighborhood Community Platform
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
-            A simple place for residents to explore listings, connect with
-            neighborhood sponsors, and receive accessible voice help.
+            Discover available homes and organizations that support the
+            community.
           </p>
         </header>
 
-        <section className="mt-12" aria-labelledby="features-heading">
-          <h2 id="features-heading" className="sr-only">
-            Platform features
+        <SearchFilters />
+
+        <section aria-labelledby="listings-heading">
+          <h2
+            id="listings-heading"
+            className="mb-5 text-2xl font-bold text-slate-900"
+          >
+            Available properties
           </h2>
 
-          <ul className="grid gap-6 md:grid-cols-3">
-            {features.map((feature) => (
-              <li key={feature.title}>
-                <article className="h-full rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-                  <h3 className="text-xl font-semibold">{feature.title}</h3>
-                  <p className="mt-3 text-slate-600">{feature.description}</p>
-                </article>
+          <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {properties.map((property) => (
+              <li key={property.id}>
+                <PropertyCard property={property} />
               </li>
             ))}
           </ul>
         </section>
+
+        <SponsorBanner sponsor={sponsor} />
       </div>
     </main>
   );
