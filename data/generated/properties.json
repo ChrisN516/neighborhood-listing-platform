@@ -1,0 +1,167 @@
+[
+  {
+    "property_id": "PROP-001",
+    "title": "Sunnyvale Modern Haven",
+    "street_address": "1042 Whispering Pines Way",
+    "city": "Sunnyvale",
+    "state": "CA",
+    "zip_code": "94086",
+    "price": 1450000,
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "square_feet": 1850,
+    "property_type": "house",
+    "listing_status": "for_sale",
+    "amenities": [
+      "Solar Panels",
+      "Attached Two-Car Garage",
+      "Hardwood Floors",
+      "Smart Thermostat"
+    ],
+    "image_url": "https://images.example.com/properties/prop-001-main.jpg",
+    "property_details_url": "https://realestate.example.com/listings/PROP-001",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SP-101",
+        "business_name": "Bay Breeze Landscaping",
+        "website_url": "https://baybreezelandscaping.example.com",
+        "description": "Full-service sustainable landscaping and garden design."
+      },
+      {
+        "sponsor_id": "SP-102",
+        "business_name": "Golden State Home Inspections",
+        "website_url": "https://goldenstateinspections.example.com",
+        "description": "Certified structural and environmental inspections."
+      }
+    ]
+  },
+  {
+    "property_id": "PROP-002",
+    "title": "Desert Ridge Vista Townhome",
+    "street_address": "4820 East Saguaro Blossom Lane",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "zip_code": "85255",
+    "price": 625000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "square_feet": 1420,
+    "property_type": "townhouse",
+    "listing_status": "pending",
+    "amenities": [
+      "Community Pool",
+      "Covered Patio",
+      "Granite Countertops"
+    ],
+    "image_url": "https://images.example.com/properties/prop-002-exterior.jpg",
+    "property_details_url": "https://realestate.example.com/listings/PROP-002",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SP-201",
+        "business_name": "Cactus Cool HVAC Services",
+        "website_url": "https://cactuscoolhvac.example.com",
+        "description": "Energy-efficient air conditioning installation and maintenance."
+      }
+    ]
+  },
+  {
+    "property_id": "PROP-003",
+    "title": "Highland Park Urban Loft",
+    "street_address": "770 North Summerlin Boulevard, Unit 4B",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip_code": "89128",
+    "price": 380000,
+    "bedrooms": 1,
+    "bathrooms": 1.5,
+    "square_feet": 980,
+    "property_type": "condo",
+    "listing_status": "for_sale",
+    "amenities": [
+      "Floor-to-Ceiling Windows",
+      "Rooftop Terrace",
+      "EV Charging Station"
+    ],
+    "image_url": "https://images.example.com/properties/prop-003-loft.jpg",
+    "property_details_url": "https://realestate.example.com/listings/PROP-003",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SP-301",
+        "business_name": "Silver State Interior Staging",
+        "website_url": "https://silverstatestaging.example.com",
+        "description": "Contemporary interior staging and spatial styling."
+      }
+    ]
+  },
+  {
+    "property_id": "PROP-004",
+    "title": "Willamette Riverfront Retreat",
+    "street_address": "2195 Waterfront Promenade Drive",
+    "city": "Portland",
+    "state": "OR",
+    "zip_code": "97201",
+    "price": 895000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "square_feet": 2650,
+    "property_type": "house",
+    "listing_status": "sold",
+    "amenities": [
+      "Riverfront Views",
+      "Cedar Sauna",
+      "Chef Kitchen",
+      "Wine Cellar"
+    ],
+    "image_url": "https://images.example.com/properties/prop-004-riverfront.jpg",
+    "property_details_url": "https://realestate.example.com/listings/PROP-004",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SP-401",
+        "business_name": "Cascade Artisan Woodworks",
+        "website_url": "https://cascadewoodworks.example.com",
+        "description": "Custom architectural cabinetry and timber finishes."
+      },
+      {
+        "sponsor_id": "SP-402",
+        "business_name": "Evergreen Title & Escrow",
+        "website_url": "https://evergreentitle.example.com",
+        "description": "Independent escrow and closing coordination."
+      },
+      {
+        "sponsor_id": "SP-403",
+        "business_name": "Pacific Moss Roof Care",
+        "website_url": "https://pacificmossroofing.example.com",
+        "description": "Eco-friendly roof cleaning and weatherproofing."
+      }
+    ]
+  },
+  {
+    "property_id": "PROP-005",
+    "title": "Cascade View Terrace Flat",
+    "street_address": "615 Pine Hill Avenue, Suite 302",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98101",
+    "price": 540000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "square_feet": 1120,
+    "property_type": "apartment",
+    "listing_status": "for_sale",
+    "amenities": [
+      "In-Unit Washer and Dryer",
+      "Private Balcony",
+      "Fitness Center Access"
+    ],
+    "image_url": "https://images.example.com/properties/prop-005-exterior.jpg",
+    "property_details_url": "https://realestate.example.com/listings/PROP-005",
+    "local_sponsors": [
+      {
+        "sponsor_id": "SP-501",
+        "business_name": "Emerald City Cleaners",
+        "website_url": "https://emeraldcitycleaners.example.com",
+        "description": "Eco-friendly residential and commercial cleaning services."
+      }
+    ]
+  }
+]
