@@ -1,0 +1,13 @@
+{
+  "id": "PROP-006",
+  "title": "Downtown Los Angeles Condo",
+  "streetAddress": "725 South Spring Street",
+  "city": "Los Angeles",
+  "state": "CA",
+  "price": "725000",
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "squareFootage": 1320,
+  "imageUrl": "https://images.example.com/prop-006.jpg",
+  "propertyDetailsUrl": "https://realestate.example.com/PROP-006"
+}
