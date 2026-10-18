@@ -1,11 +1,7 @@
-import PropertyCard from "../components/PropertyCard";
+import PropertyListings from "../components/PropertyListings";
 import SearchFilters from "../components/SearchFilters";
 import SponsorBanner from "../components/SponsorBanner";
-import {
-  properties,
-  sponsor,
-  validationMessage,
-} from "../lib/property-data";
+import { sponsor, validationMessage } from "../lib/property-data";
 
 export default function Home() {
   return (
@@ -40,17 +36,7 @@ export default function Home() {
             Available properties
           </h2>
 
-          {properties.length > 0 ? (
-            <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {properties.map((property) => (
-                <li key={property.id}>
-                  <PropertyCard property={property} />
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p role="alert">No valid property records are available.</p>
-          )}
+          <PropertyListings />
         </section>
 
         {sponsor && <SponsorBanner sponsor={sponsor} />}
