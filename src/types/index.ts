@@ -1,4 +1,4 @@
-export interface Property {
+export interface PropertyListing {
   id: string;
   title: string;
   streetAddress: string;
@@ -11,6 +11,8 @@ export interface Property {
   imageUrl: string;
   propertyDetailsUrl: string;
 }
+
+export type Property = PropertyListing;
 
 export interface Sponsor {
   id: string;

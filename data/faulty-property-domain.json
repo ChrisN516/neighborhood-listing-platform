@@ -1,0 +1,13 @@
+{
+  "id": "PROP-007",
+  "title": "Pasadena Craftsman Home",
+  "streetAddress": "418 North Marengo Avenue",
+  "city": "Pasadena",
+  "state": "CA",
+  "price": -850000,
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "squareFootage": 1850,
+  "imageUrl": "https://images.example.com/prop-007.jpg",
+  "propertyDetailsUrl": "https://realestate.example.com/PROP-007"
+}
